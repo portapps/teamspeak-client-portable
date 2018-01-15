@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="teamspeak-client" basedir=".">
+
+  <dirname property="app.basedir" file="${ant.file.teamspeak-client}"/>
+  <property name="build.properties" value="${app.basedir}/build.properties"/>
+  <property file="${build.properties}"/>
+
+  <!-- Load Portapps core build -->
+  <property name="core.basedir" location="${app.basedir}\${core.dir}"/>
+  <fail unless="core.basedir" message="Core directory '${core.basedir}' not found in ${core.basedir}"/>
+  <echo message="Core found in ${core.basedir}" level="debug"/>
+
+  <!-- Import build-app.xml  -->
+  <import file="${core.basedir}\.build\build-app.xml"/>
+
+  <!-- Targets -->
+  <target name="release" depends="release.app" description="Release"/>
+
+  <target name="prepare">
+    <if>
+      <equals arg1="${atf.arch}" arg2="ia32"/>
+      <then>
+        <rcedit arch="${atf.arch}" dir="${extract.path}">
+          <args>
+            <arg value="ts3client_win32.exe"/>
+            <arg value="--application-manifest"/>
+            <arg value="${res.path}\papp.manifest"/>
+          </args>
+        </rcedit>
+      </then>
+      <else>
+        <rcedit arch="${atf.arch}" dir="${extract.path}">
+          <args>
+            <arg value="ts3client_win64.exe"/>
+            <arg value="--application-manifest"/>
+            <arg value="${res.path}\papp.manifest"/>
+          </args>
+        </rcedit>
+      </else>
+    </if>
+    <delete dir="${extract.path}\$PLUGINSDIR"/>
+    <delete file="${extract.path}\Uninstall.exe.nsis"/>
+  </target>
+
+</project>
