@@ -3,6 +3,7 @@
 package main
 
 import (
+	"os"
 	"runtime"
 
 	. "github.com/portapps/portapps"
@@ -28,5 +29,5 @@ func main() {
 	Papp.WorkingDir = Papp.AppPath
 
 	OverrideEnv("TS3_CONFIG_DIR", Papp.DataPath)
-	Launch()
+	Launch(os.Args[1:])
 }
