@@ -18,7 +18,7 @@
 
   <target name="prepare">
     <if>
-      <equals arg1="${atf.arch}" arg2="ia32"/>
+      <equals arg1="${atf.arch}" arg2="win32"/>
       <then>
         <rcedit arch="${atf.arch}" dir="${extract.path}">
           <args>

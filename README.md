@@ -19,14 +19,14 @@ Tested on Windows 7, Windows 8.1 and Windows 10.
 
 There are different kinds of artifacts :
 
-* `teamspeak-client-portable-{ia32,x64}-x.x.x-x-setup.exe` : Full portable release of TeamSpeak Client as a setup. **Recommended way**!
-* `teamspeak-client-portable-{ia32,x64}-x.x.x-x.7z` : Full portable release of TeamSpeak Client as a 7z archive.
-* `teamspeak-client-portable-{ia32,x64}.exe` : Only the portable binary (must be renamed `teamspeak-client-portable.exe`)
-* `TeamSpeak-Client-{win32,win64}-x.x.x-setup.exe` : The original setup from the [official website](https://www.teamspeak.com/en/downloads.html#client).
+* `teamspeak-client-portable-win{32,64}-x.x.x-x-setup.exe` : Full portable release of TeamSpeak Client as a setup. **Recommended way**!
+* `teamspeak-client-portable-win{32,64}-x.x.x-x.7z` : Full portable release of TeamSpeak Client as a 7z archive.
+* `teamspeak-client-portable-win{32,64}.exe` : Only the portable binary (must be renamed `teamspeak-client-portable.exe`)
+* `TeamSpeak-Client-win{32,64}-x.x.x-setup.exe` : The original setup from the [official website](https://www.teamspeak.com/en/downloads.html#client).
 
 ### Fresh installation
 
-Install `teamspeak-client-portable-{ia32,x64}-x.x.x-x-setup.exe` where you want then run `teamspeak-client-portable.exe`.
+Install `teamspeak-client-portable-win{32,64}-x.x.x-x-setup.exe` where you want then run `teamspeak-client-portable.exe`.
 
 ### App already installed
 
