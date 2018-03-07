@@ -3,7 +3,7 @@
 <p align="center">
   <a href="https://github.com/portapps/teamspeak-client-portable/releases/latest"><img src="https://img.shields.io/github/release/portapps/teamspeak-client-portable.svg?style=flat-square" alt="GitHub release"></a>
   <a href="https://github.com/portapps/teamspeak-client-portable/releases/latest"><img src="https://img.shields.io/github/downloads/portapps/teamspeak-client-portable/total.svg?style=flat-square" alt="Total downloads"></a>
-  <a href="https://ci.appveyor.com/project/crazy-max/teamspeak-client-portable"><img src="https://img.shields.io/appveyor/ci/crazy-max/teamspeak-client-portable.svg?style=flat-square" alt="AppVeyor"></a>
+  <a href="https://ci.appveyor.com/project/portapps/teamspeak-client-portable"><img src="https://img.shields.io/appveyor/ci/portapps/teamspeak-client-portable.svg?style=flat-square" alt="AppVeyor"></a>
   <a href="https://goreportcard.com/report/github.com/portapps/teamspeak-client-portable"><img src="https://goreportcard.com/badge/github.com/portapps/teamspeak-client-portable?style=flat-square" alt="Go Report"></a>
   <a href="https://www.codacy.com/app/portapps/teamspeak-client-portable"><img src="https://img.shields.io/codacy/grade/ed37fe9f437945079bd306ef1e871652.svg?style=flat-square" alt="Code Quality"></a>
   <a href="https://beerpay.io/portapps/portapps"><img src="https://img.shields.io/beerpay/portapps/portapps.svg?style=flat-square" alt="Beerpay"></a>
