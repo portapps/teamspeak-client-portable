@@ -1,6 +1,6 @@
 # Changelog
 
-## 3.2.1-7 (2018/08/14)
+## 3.2.1-7 (2018/08/15)
 
 * Upgrade to TeamSpeak Client 3.2.1
 
