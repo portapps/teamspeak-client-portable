@@ -1,5 +1,11 @@
 # Changelog
 
+## 3.2.2-8 (2018/09/18)
+
+* Upgrade to TeamSpeak Client 3.2.2
+* Upgrade to Go 1.11
+* Use [go mod](https://golang.org/cmd/go/#hdr-Module_maintenance) instead of `dep`
+
 ## 3.2.1-7 (2018/08/15)
 
 * Upgrade to TeamSpeak Client 3.2.1
