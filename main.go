@@ -17,7 +17,7 @@ func init() {
 
 func main() {
 	Papp.AppPath = AppPathJoin("app")
-	Papp.DataPath = AppPathJoin("data")
+	Papp.DataPath = CreateFolder(AppPathJoin("data"))
 
 	if runtime.GOARCH == "386" {
 		Papp.Process = PathJoin(Papp.AppPath, "ts3client_win32.exe")
