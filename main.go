@@ -7,27 +7,35 @@ import (
 	"runtime"
 
 	. "github.com/portapps/portapps"
+	"github.com/portapps/portapps/pkg/utl"
+)
+
+var (
+	app *App
 )
 
 func init() {
-	Papp.ID = "teamspeak-client-portable"
-	Papp.Name = "TeamSpeak Client"
-	Init()
+	var err error
+
+	// Init app
+	if app, err = New("teamspeak-client-portable", "TeamSpeak Client"); err != nil {
+		Log.Fatal().Err(err).Msg("Cannot initialize application. See log file for more info.")
+	}
 }
 
 func main() {
-	Papp.AppPath = AppPathJoin("app")
-	Papp.DataPath = CreateFolder(AppPathJoin("data"))
-
+	utl.CreateFolder(app.DataPath)
 	if runtime.GOARCH == "386" {
-		Papp.Process = PathJoin(Papp.AppPath, "ts3client_win32.exe")
+		app.Process = utl.PathJoin(app.AppPath, "ts3client_win32.exe")
 	} else {
-		Papp.Process = PathJoin(Papp.AppPath, "ts3client_win64.exe")
+		app.Process = utl.PathJoin(app.AppPath, "ts3client_win64.exe")
 	}
 
-	Papp.Args = []string{"-nosingleinstance"}
-	Papp.WorkingDir = Papp.AppPath
+	app.Args = []string{
+		"-nosingleinstance",
+	}
 
-	OverrideEnv("TS3_CONFIG_DIR", Papp.DataPath)
-	Launch(os.Args[1:])
+	utl.OverrideEnv("TS3_CONFIG_DIR", app.DataPath)
+
+	app.Launch(os.Args[1:])
 }
