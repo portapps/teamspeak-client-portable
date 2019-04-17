@@ -1,30 +1,35 @@
 # Changelog
 
+## 3.2.5-11 (2019/04/17)
+
+* TeamSpeak Client 3.2.5
+* Portapps 1.22.0
+
 ## 3.2.3-10 (2019/03/23)
 
 * Portapps 1.20.3
 
 ## 3.2.3-9 (2018/11/15)
 
-* Upgrade to TeamSpeak Client 3.2.3
+* TeamSpeak Client 3.2.3
 
 ## 3.2.2-8 (2018/09/18)
 
-* Upgrade to TeamSpeak Client 3.2.2
-* Upgrade to Go 1.11
+* TeamSpeak Client 3.2.2
+* Go 1.11
 * Use [go mod](https://golang.org/cmd/go/#hdr-Module_maintenance) instead of `dep`
 
 ## 3.2.1-7 (2018/08/15)
 
-* Upgrade to TeamSpeak Client 3.2.1
+* TeamSpeak Client 3.2.1
 
 ## 3.1.10-6 (2018/06/11)
 
-* Upgrade to TeamSpeak Client 3.1.10
+* TeamSpeak Client 3.1.10
 
 ## 3.1.9-5 (2018/05/08)
 
-* Upgrade to TeamSpeak Client 3.1.9
+* TeamSpeak Client 3.1.9
 
 ## 3.1.8-4 (2018/02/11)
 
@@ -38,7 +43,7 @@
 
 ## 3.1.8-2 (2018/01/25)
 
-* Upgrade to TeamSpeak Client 3.1.8
+* TeamSpeak Client 3.1.8
 
 ## 3.1.7-1 (2018/01/15)
 
