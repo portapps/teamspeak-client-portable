@@ -12,13 +12,15 @@
 
 ## Notice of Non-Affiliation and Disclaimer
 
-Portapps is not affiliated, associated, authorized, endorsed by, or in any way officially connected with TeamSpeak, or any of its subsidiaries or its affiliates. The official TeamSpeak website can be found at https://www.teamspeak.com.
+Portapps is not affiliated, associated, authorized, endorsed by, or in any way officially connected with TeamSpeak™, or any of its subsidiaries or its affiliates.
 
-The name TeamSpeak® as well as related names, marks, emblems and images are registered trademarks of their respective owners.
+The official TeamSpeak™ website can be found at https://www.teamspeak.com.
+
+The name TeamSpeak™ as well as related names, marks, emblems and images are registered trademarks of their respective owners.
 
 ## About
 
-TeamSpeak Client portable app made with 🚀 [Portapps](https://portapps.io).<br />
+TeamSpeak™ Client portable app made with 🚀 [Portapps](https://portapps.io).<br />
 Documentation and downloads can be found on https://portapps.io/app/teamspeak-client-portable/
 
 ## How can I help ?
