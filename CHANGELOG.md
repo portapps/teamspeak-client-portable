@@ -1,6 +1,6 @@
 # Changelog
 
-## 3.3.0-12 (2019/06/18)
+## 3.3.0-13 (2019/06/18)
 
 * TeamSpeak Client 3.3.0
 * Portapps 1.24.1
