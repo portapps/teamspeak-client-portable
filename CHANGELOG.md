@@ -1,5 +1,9 @@
 # Changelog
 
+## 3.5.2-16 (2020/04/09)
+
+* TeamSpeak Client 3.5.2
+
 ## 3.5.1-15 (2020/03/25)
 
 * TeamSpeak Client 3.5.1
