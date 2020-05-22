@@ -1,5 +1,10 @@
 # Changelog
 
+## 3.5.3-17 (2020/05/22)
+
+* TeamSpeak Client 3.5.3
+* Portapps 2.3.0
+
 ## 3.5.2-16 (2020/04/09)
 
 * TeamSpeak Client 3.5.2
