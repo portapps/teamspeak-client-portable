@@ -6,9 +6,9 @@ import (
 	"os"
 	"runtime"
 
-	"github.com/portapps/portapps/v2"
-	"github.com/portapps/portapps/v2/pkg/log"
-	"github.com/portapps/portapps/v2/pkg/utl"
+	"github.com/portapps/portapps/v3"
+	"github.com/portapps/portapps/v3/pkg/log"
+	"github.com/portapps/portapps/v3/pkg/utl"
 )
 
 var (
@@ -36,7 +36,7 @@ func main() {
 		"-nosingleinstance",
 	}
 
-	utl.OverrideEnv("TS3_CONFIG_DIR", app.DataPath)
+	os.Setenv("TS3_CONFIG_DIR", app.DataPath)
 
 	defer app.Close()
 	app.Launch(os.Args[1:])
